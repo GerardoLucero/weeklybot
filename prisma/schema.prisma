@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id
+  chatId    String   @unique
+  name      String   @default("")
+  timezone  String   @default("UTC")
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  entries   WeeklyEntry[]
+}
+
+model WeeklyEntry {
+  id        String   @id
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  week      String
+  answers   String   @default("[]")
+  state     String   @default("pending")
+  insights  String   @default("{}")
+  createdAt DateTime @default(now())
+}
