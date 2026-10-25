@@ -2,9 +2,7 @@
 
 A Telegram bot that checks in on your life every Sunday and builds a picture of your patterns over time.
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/gerardolucero)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lucerorios0)
-[![GitHub Stars](https://img.shields.io/github/stars/GerardoLucero/weeklybot?style=social)](https://github.com/GerardoLucero/weeklybot)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Every Sunday, Weeklybot sends you five questions. You answer them in Telegram at your own pace. Once you have answered all five, the bot processes your answers with AI and sends back a weekly summary: your word of the week, your balance score, the win that mattered most, the pattern behind what blocked you, and one concrete thing to do differently next week.
 
@@ -218,6 +216,13 @@ weeklybot/
 
 ---
 
+## Support
+
+Open source, maintained in my spare time. If it was useful and you want to say thanks:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/gerardolucero)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lucerorios0)
+
 ## License
 
-MIT
+MIT, see [LICENSE](LICENSE).
